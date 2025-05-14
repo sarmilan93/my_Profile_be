@@ -13,7 +13,7 @@ const app = express();
 
 // Configure CORS
 const corsOptions = {
-    origin: 'http://localhost:5173', // Replace with your React app's URL
+    origin: 'https://myprofilebe-production.up.railway.app', // Replace with your React app's URL
     methods: 'GET, POST, PUT, DELETE',
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true, // Allow cookies to be sent with requests
